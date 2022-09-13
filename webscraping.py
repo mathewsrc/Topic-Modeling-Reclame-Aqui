@@ -2,12 +2,15 @@ from bs4 import BeautifulSoup as bs
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.firefox.options import Options
 from time import sleep
 import csv
 import os
 
-options = webdriver.FirefoxOptions()
-options.add_argument('--headless')
+options = Options()
+options.add_argument('--window-size=1920,1080')
+options.add_argument("--headless")
+options.add_argument("--start-maximized")
 
 business_name = 'amazon'
 base_url = 'https://www.reclameaqui.com.br'
