@@ -6,10 +6,13 @@ from time import sleep
 import csv
 import os
 
+options = webdriver.FirefoxOptions()
+options.add_argument('--headless')
+
 business_name = 'amazon'
 base_url = 'https://www.reclameaqui.com.br'
 url_site = f'{base_url}/empresa/{business_name}/lista-reclamacoes/'
-wd = webdriver.Firefox(service=FirefoxService(GeckoDriverManager(path = r".\\Drivers").install()))
+wd = webdriver.Firefox(service=FirefoxService(GeckoDriverManager(path = r".\\Drivers").install()), options=options, service_log_path=os.devnull)
 wd.get(url_site)
 html = wd.page_source
 page = bs(html,'html.parser')
