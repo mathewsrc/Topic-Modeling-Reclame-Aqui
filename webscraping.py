@@ -9,7 +9,7 @@ import os
 business_name = 'amazon'
 base_url = 'https://www.reclameaqui.com.br'
 url_site = f'{base_url}/empresa/{business_name}/lista-reclamacoes/'
-wd = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+wd = webdriver.Firefox(service=FirefoxService(GeckoDriverManager(path = r".\\Drivers").install()))
 wd.get(url_site)
 html = wd.page_source
 page = bs(html,'html.parser')
