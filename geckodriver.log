@@ -962,3 +962,106 @@ JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmG
 JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/UtAH21516j-lv8NeH95YZMYQEqYTHJGx7ojgWd5suBE.js line 2 > eval line 862 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1663108631919	Marionette	INFO	Stopped listening on port 59297
+1663109628988	geckodriver	INFO	Listening on 127.0.0.1:60026
+1663109632050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60027" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\BIGGMA~1\\AppData\\Local\\Temp\\rust_mozprofilezX4Mb4"
+1663109632568	Marionette	INFO	Marionette enabled
+1663109632577	Marionette	INFO	Listening on port 60044
+WebDriver BiDi listening on ws://localhost:60027
+Read port: 60044
+1663109632794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BIGGMA~1\\AppData\\Local\\Temp\\rust_mozprofilezX4Mb4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60027/devtools/browser/5d57ac71-144a-4357-ba50-6af222f1fdbe
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1663109636452	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.25.0/otBannerSdk.js, line 7: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UtAH21516j-lv8NeH95YZMYQEqYTHJGx7ojgWd5suBE.js line 2 > eval line 1534 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1663109642430	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UtAH21516j-lv8NeH95YZMYQEqYTHJGx7ojgWd5suBE.js line 2 > eval line 7477 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: unreachable code after return statement
+1663109648713	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UtAH21516j-lv8NeH95YZMYQEqYTHJGx7ojgWd5suBE.js line 2 > eval line 2062 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: unreachable code after return statement
+1663109654844	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: unreachable code after return statement
+1663109659828	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: unreachable code after return statement
+1663109664717	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: unreachable code after return statement
+1663109669715	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UtAH21516j-lv8NeH95YZMYQEqYTHJGx7ojgWd5suBE.js line 2 > eval line 2501 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: unreachable code after return statement
+1663109675230	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UtAH21516j-lv8NeH95YZMYQEqYTHJGx7ojgWd5suBE.js line 2 > eval line 3520 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: unreachable code after return statement
+1663109681480	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UtAH21516j-lv8NeH95YZMYQEqYTHJGx7ojgWd5suBE.js line 2 > eval line 2101 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: unreachable code after return statement
+1663109687968	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UtAH21516j-lv8NeH95YZMYQEqYTHJGx7ojgWd5suBE.js line 2 > eval line 680 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: unreachable code after return statement
+1663109693640	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/N6K031/F/r/101cB1e_hQ/SJuLwmGtQO5L/Ji1MAQ/Plx/0ZCNILAkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UtAH21516j-lv8NeH95YZMYQEqYTHJGx7ojgWd5suBE.js line 2 > eval line 2326 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/YMhr00/dDRmmN/Q/3DK/te8gqLlUvAs/c2V5rNX6/WWdFNA/GGp/dfjBFIiEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1663109696906	Marionette	INFO	Stopped listening on port 60044
