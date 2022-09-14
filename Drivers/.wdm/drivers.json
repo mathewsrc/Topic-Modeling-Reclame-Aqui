@@ -2,5 +2,9 @@
     "win64_geckodriver_0.31_for_104.0": {
         "timestamp": "13/09/2022",
         "binary_path": ".\\\\Drivers\\.wdm\\drivers\\geckodriver\\win64\\0.31\\geckodriver.exe"
+    },
+    "win32_chromedriver_105.0.5195_for_105.0.5195": {
+        "timestamp": "13/09/2022",
+        "binary_path": ".\\\\Drivers\\.wdm\\drivers\\chromedriver\\win32\\105.0.5195\\chromedriver.exe"
     }
 }
