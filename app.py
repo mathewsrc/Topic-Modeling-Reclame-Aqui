@@ -6,7 +6,7 @@ import click
                 prompt = 'Please enter a company name',
                 help='The company name you are look for')
 @click.option('--n', type=int, default=100, show_default=True,
-                prompt='Enter the number of items to collect default is',
+                prompt='Enter the number (>1) of items to collect default is',
                 help='The number of items to collect.')
 def cli(name, n):
     execute(name, n)

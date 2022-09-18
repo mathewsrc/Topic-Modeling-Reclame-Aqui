@@ -10,10 +10,10 @@ import csv
 def execute(name, total):
     base_url = 'https://www.reclameaqui.com.br'
     rows = []
+    wd = webdriver.Chrome(service=ChromiumService(ChromeDriverManager().install()))
 
     for page in range(1,total):
         url_site = f'{base_url}/empresa/{name}/lista-reclamacoes/?pagina={page}'
-        wd = webdriver.Chrome(service=ChromiumService(ChromeDriverManager().install()))
         wd.get(url_site)
         html = wd.page_source
         bs_obj = bs(html,'html.parser')
@@ -35,7 +35,7 @@ def execute(name, total):
 
 def save(rows):
     column_names = ['Title', 'Body']
-    with open('results/web_scraping_results.csv', 'w') as _f:
+    with open('./results/web_scraping_results.csv', 'w', encoding='utf-8') as _f:
         writer = csv.writer(_f)
         # write the column names
         writer.writerow(column_names)
