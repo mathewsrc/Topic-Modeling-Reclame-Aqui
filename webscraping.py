@@ -6,14 +6,49 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.core.utils import ChromeType
 from time import sleep
 import csv
+from plyer import notification
+from tqdm import tqdm
+from selenium import TimeoutException
 
-def execute(name, total):
+def execute(input, output, n, alert):
     base_url = 'https://www.reclameaqui.com.br'
-    rows = []
-    wd = webdriver.Chrome(service=ChromiumService(ChromeDriverManager().install()))
+    wd = get_web_driver()
+    writer = get_output_writer(output)
+    lines = [line.rstrip() for line in input] 
+    for line in tqdm(lines):
+        try:
+            print()
+            print(f'Searching for {line}...............................................')
+            print()
+            data = scrap(line, n, base_url, wd)
+            save_to_output(writer, data)
+        except TimeoutException as ex:
+            continue
+    if alert == 'y' or alert == True:
+        showNotification()
+    wd.quit()
 
-    for page in range(1,total):
-        url_site = f'{base_url}/empresa/{name}/lista-reclamacoes/?pagina={page}'
+def save_to_output(writer, data):
+    for i in data:
+        #write the rows
+        writer.writerow(i)
+
+def get_web_driver():
+    wd = webdriver.Chrome(service=ChromiumService(ChromeDriverManager().install()))
+    return wd
+
+def get_output_writer(output):
+    column_names = ['title', 'text']
+    f = open(output, 'a', encoding='utf-8') 
+    writer = csv.writer(f)
+    # write the column names
+    writer.writerow(column_names)
+    return writer
+    
+def scrap(name, n, base_url, wd):
+    for page in tqdm(range(1, n)):
+        print(f'Page {page} of {n}')
+        url_site = f'{base_url}/empresa/{name.lower()}/lista-reclamacoes/?pagina={page}'
         wd.get(url_site)
         html = wd.page_source
         bs_obj = bs(html,'html.parser')
@@ -24,22 +59,17 @@ def execute(name, total):
 
         for link in page_links:
             wd.get(link)
-            sleep(3)
+            sleep(4)
             bs_page = bs(wd.page_source, 'html.parser')
             title = bs_page.find('h1', {'data-testid': 'complaint-title'}).text
             body = bs_page.find('p', {'data-testid':'complaint-description'}).text
             print([title,body])
-            rows.append([title, body])
-    save(rows)
-    wd.quit()
-
-def save(rows):
-    column_names = ['Title', 'Body']
-    with open('./results/web_scraping_results.csv', 'w', encoding='utf-8') as _f:
-        writer = csv.writer(_f)
-        # write the column names
-        writer.writerow(column_names)
-        #write the rows
-        writer.writerows(rows)
-
-
+            yield [title, body]
+        
+def showNotification(output):
+    notification.notify(
+        title='Web Scraping Finished',
+        message=f'Data collected and save to {output}',
+        timeout=10
+    )
+    
