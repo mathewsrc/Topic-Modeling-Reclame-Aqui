@@ -1,3 +1,4 @@
+from operator import add
 from bs4 import BeautifulSoup as bs
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -8,30 +9,45 @@ from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.firefox.options import Options
-
 from time import sleep
 import csv
 from plyer import notification
 from tqdm import tqdm
 
 
-def execute(input, output, n, alert):
+def execute(input, output, column_names,  n, start_from, alert):
     base_url = 'https://www.reclameaqui.com.br'
-    writer = get_output_writer(output)
+    add_headings(output, column_names)
     lines = [line.rstrip() for line in input] 
+    start = 2
+    if start_from > 2:
+        start = start_from
     for line in tqdm(lines):
         print()
         print(f'Searching for {line}...............................................')
         print()
-        data = scrap(line, n, base_url)
-        save_to_output(writer, data)
+        data = scrap(line, n, start, base_url)
+        start_from = 2
+        save_to_output(output, data)
     if alert == 'y' or alert == True:
         showNotification(output)
-
-def save_to_output(writer, data):
-    for i in data:
-        #write the rows
-        writer.writerow(i)
+        
+def add_headings(output, column_names):
+    with open(output, 'r') as f:
+        reader = csv.reader(f)
+        csv_headings = next(reader)
+        if 'title' not in csv_headings[0]:
+            with open(output, 'a', encoding='utf-8') as f:
+                writer = csv.writer(f) 
+                writer.writerow(column_names)
+            
+def save_to_output(output, data):
+    with open(output, 'a', encoding='utf-8') as f:
+        writer = csv.writer(f) 
+        for i in data:
+            #write the rows
+            writer.writerow(i)
+    print('Successful saved to output')
 
 def get_web_driver():
     options = webdriver.FirefoxOptions()
@@ -39,23 +55,14 @@ def get_web_driver():
     options.page_load_strategy = 'eager'
     wd = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
     return wd
-
-def get_output_writer(output):
-    column_names = ['title', 'text']
-    f = open(output, 'a', encoding='utf-8') 
-    writer = csv.writer(f)
-    # write the column names
-    writer.writerow(column_names)
-    return writer
     
-def scrap(name, n, base_url):
+def scrap(name, n, start_from, base_url):
     notification.notify(title='Web Scraping',message=f'Collecting data from {name}',timeout=10)
-    content = []
-    wd = get_web_driver()
-    for page in range(2, (2+n)):
+    for page in range(start_from, (2+n)):
         print(f'\nPage {page} of {(2 + n)}')
         print()
         url_site = f'{base_url}/empresa/{name.lower()}/lista-reclamacoes/?pagina={page}'
+        wd = get_web_driver()
         wd.get(url_site)
         sleep(3)
         source = wd.page_source
@@ -79,7 +86,6 @@ def scrap(name, n, base_url):
                 print(f'Title: {title} \nBody: {body[:80]}')
                 print('-----------------------------------------------------------------------------\n')
                 yield [title, body]
-                #content.append([title, body])
             except WebDriverException as wd:
                 continue
             except Exception as e:
@@ -89,8 +95,6 @@ def scrap(name, n, base_url):
                     timeout=10
                 )
                 print(e)
-    wd.quit()
-    return content
         
 def showNotification(output):
     notification.notify(
