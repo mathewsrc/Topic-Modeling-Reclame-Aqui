@@ -15,9 +15,9 @@ from plyer import notification
 from tqdm import tqdm
 
 
-def execute(input, output, column_names,  n, start_from, alert):
+def execute(input, output, n, start_from, alert):
     base_url = 'https://www.reclameaqui.com.br'
-    add_headings(output, column_names)
+    add_headings(output)
     lines = [line.rstrip() for line in input] 
     start = 2
     if start_from > 2:
@@ -32,12 +32,13 @@ def execute(input, output, column_names,  n, start_from, alert):
     if alert == 'y' or alert == True:
         showNotification(output)
         
-def add_headings(output, column_names):
+def add_headings(output):
     with open(output, 'r') as f:
         reader = csv.reader(f)
         csv_headings = next(reader)
         if 'title' not in csv_headings[0]:
             with open(output, 'a', encoding='utf-8') as f:
+                column_names = ['title', 'body']
                 writer = csv.writer(f) 
                 writer.writerow(column_names)
             

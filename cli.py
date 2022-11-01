@@ -5,8 +5,6 @@ import click
 @click.command()
 @click.option('--input', type=click.File('r'), required=True)
 @click.option('--output', type=str, required=True)
-@click.option('--column_names', default=['title', 'text'], type=list, 
-              prompt='Enter the column names of the output csv file')
 @click.option('--n', type=int, default=5, show_default=True,
                 prompt='Enter the number of pages',
                 help='The number of pages. Each page contains contains 1 or more complaints')
@@ -16,8 +14,8 @@ import click
 @click.option('--alert', type=bool, default='y',
                 prompt='Show notification [y/N]',
                 help='Show a notification on task finishes.')
-def cli(input, output, column_names,  n, start_from, alert):
-    execute(input, output, column_names, n, start_from,  alert)
+def cli(input, output,   n, start_from, alert):
+    execute(input, output,  n, start_from,  alert)
 
 
 if __name__ =='__main__':
