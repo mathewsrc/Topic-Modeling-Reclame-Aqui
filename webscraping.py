@@ -86,6 +86,8 @@ def scrap(name, n, start_from, base_url):
                 body = bs_page.find('p', {'data-testid':'complaint-description'}).text
                 print(f'Title: {title} \nBody: {body[:80]}')
                 print('-----------------------------------------------------------------------------\n')
+                if title == '':
+                    break
                 yield [title, body]
             except WebDriverException as wd:
                 continue

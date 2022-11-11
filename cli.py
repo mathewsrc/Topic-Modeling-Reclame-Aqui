@@ -14,7 +14,7 @@ import click
 @click.option('--alert', type=bool, default='y',
                 prompt='Show notification [y/N]',
                 help='Show a notification on task finishes.')
-def cli(input, output,   n, start_from, alert):
+def cli(input, output, n, start_from, alert):
     execute(input, output,  n, start_from,  alert)
 
 
