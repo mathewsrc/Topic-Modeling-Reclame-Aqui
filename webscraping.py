@@ -60,7 +60,7 @@ def get_web_driver():
 def scrap(name, n, start_from, base_url):
     notification.notify(title='Web Scraping',message=f'Collecting data from {name}',timeout=10)
     for page in range(start_from, (2+n)):
-        print(f'\nPage {page} of {(2 + n)}')
+        print(f'\nPage {page} of {(n)}')
         print()
         url_site = f'{base_url}/empresa/{name.lower()}/lista-reclamacoes/?pagina={page}'
         wd = get_web_driver()
