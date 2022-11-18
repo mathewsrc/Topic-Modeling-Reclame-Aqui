@@ -5,7 +5,7 @@ import click
 @click.command()
 @click.option('--input', type=click.File('r'), required=True)
 @click.option('--output', type=str, required=True)
-@click.option('--n', type=int, default=5, show_default=True,
+@click.option('--n', type=int, default=16, show_default=True,
                 prompt='Enter the number of pages',
                 help='The number of pages. Each page contains contains 1 or more complaints')
 @click.option('--start_from', type=int, default=0,
