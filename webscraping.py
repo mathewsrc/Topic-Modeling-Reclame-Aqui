@@ -19,15 +19,12 @@ def execute(input, output, n, start_from, alert):
     base_url = 'https://www.reclameaqui.com.br'
     add_headings(output)
     lines = [line.rstrip() for line in input] 
-    start = 2
-    if start_from > 2:
-        start = start_from
+    wd = get_web_driver()
     for line in tqdm(lines):
         print()
         print(f'Searching for {line}...............................................')
         print()
-        data = scrap(line, n, start, base_url)
-        start_from = 2
+        data = scrap(wd, line, n, start_from, base_url)
         save_to_output(output, data)
     if alert == 'y' or alert == True:
         showNotification(output)
@@ -57,13 +54,13 @@ def get_web_driver():
     wd = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
     return wd
     
-def scrap(name, n, start_from, base_url):
+def scrap(wd, name, n, start_from, base_url):
     notification.notify(title='Web Scraping',message=f'Collecting data from {name}',timeout=10)
-    for page in range(start_from, (2+n)):
+    for page in range(start_from, n):
         print(f'\nPage {page} of {(n)}')
         print()
         url_site = f'{base_url}/empresa/{name.lower()}/lista-reclamacoes/?pagina={page}'
-        wd = get_web_driver()
+        #wd = get_web_driver()
         wd.get(url_site)
         sleep(3)
         source = wd.page_source

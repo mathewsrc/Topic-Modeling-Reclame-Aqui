@@ -8,7 +8,7 @@ import click
 @click.option('--n', type=int, default=16, show_default=True,
                 prompt='Enter the number of pages',
                 help='The number of pages. Each page contains contains 1 or more complaints')
-@click.option('--start_from', type=int, default=0,
+@click.option('--start_from', type=int, default=1,
               prompt='Select the start page to collect from',
               help='Select the page position to start collect data')
 @click.option('--alert', type=bool, default='y',
