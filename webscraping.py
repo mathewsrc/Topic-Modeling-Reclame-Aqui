@@ -75,8 +75,9 @@ def get_content(wd, page_links, output):
     
 def scrap(output, name, n, start_from, base_url):
     notification.notify(title='Web Scraping',message=f'Collecting data from {name}',timeout=10)
-    for page in range(start_from, n):
-        click.echo(f'\nPage {page} of {(n)}')
+    total_page = n + start_from
+    for page in range(start_from, total_page):
+        click.echo(f'\nPage {page} of {total_page}')
         click.echo()
         url_site = f'{base_url}/empresa/{name.lower()}/lista-reclamacoes/?pagina={page}'
         wd = get_web_driver()
