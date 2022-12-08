@@ -14,31 +14,33 @@ import csv
 from plyer import notification
 from tqdm import tqdm
 import click
+import pandas as pd
+from pandas.errors import EmptyDataError 
+
 
 def showNotification(output):
     notification.notify(
         title='Web Scraping',
         message=f'Data collected and saved to {output}',
         timeout=10
-    )
-    
-def add_headings(output):
-    with open(output, 'r') as f:
-        reader = csv.reader(f)
-        csv_headings = next(reader)
-        if 'title' not in csv_headings[0]:
-            with open(output, 'a', encoding='utf-8') as f:
-                column_names = ['title', 'body']
-                writer = csv.writer(f) 
-                writer.writerow(column_names)
+    )    
             
-def save_to_output(output, data):
-    with open(output, 'a', encoding='utf-8') as f:
-        writer = csv.writer(f) 
-        for i in data:
-            #write the rows
-            writer.writerow(i)
-    click.echo('Successful saved to output')
+def save_to_output(output, data):      
+     with open(output, 'a', encoding="utf-8") as f: 
+        writer = csv.writer(f, delimiter=",") 
+        
+        # use read_csv method from pandas to detect a new file and write the headers
+        try:
+            df = pd.read_csv(output)  
+        except EmptyDataError:
+            column_names = ['title', 'body']
+            # write headers
+            writer.writerow(column_names)
+        
+        # write rows
+        writer.writerows(data)
+        click.echo('Successful saved to output')
+
 
 def get_web_driver():
     options = webdriver.FirefoxOptions()
@@ -97,7 +99,6 @@ def scrap(output, name, n, start_from, base_url):
 
 def execute(input, output, n, start_from, alert):
     base_url = 'https://www.reclameaqui.com.br'
-    add_headings(output)
     lines = [line.rstrip() for line in input] 
     for line in tqdm(lines):
         click.echo()
