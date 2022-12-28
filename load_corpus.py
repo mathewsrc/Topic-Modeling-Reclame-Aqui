@@ -2,7 +2,7 @@ import pickle
 import os
 import click
 
-def load_corpus(option, ):
+def load_corpus(option):
   prep_file_path = '/content/Topic-Modeling-Reclame-Aqui/corpus/preprocessed'
   raw_file_path = '/content/Topic-Modeling-Reclame-Aqui/corpus/raw'
 
