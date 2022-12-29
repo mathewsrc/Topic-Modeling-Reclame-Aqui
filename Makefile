@@ -6,7 +6,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest --vv test_app.py
+	python -m pytest --vv test.py
 
 format:
 	black *.py
