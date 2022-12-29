@@ -12,7 +12,7 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C codigoquebrado.py
+	pylint --disable=R,C *.py
 
 
 all: install lint test 
