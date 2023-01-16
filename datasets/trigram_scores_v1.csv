@@ -1,0 +1,21 @@
+trigram,score
+"('cumprimento', 'forçar', 'obrigação')",4.71826188501073
+"('exigir', 'cumprimento', 'forçar')",4.517349191084733
+"('emitir', 'nota', 'fiscal')",-1.2995792390367242
+"('nota', 'fiscal', 'emitir')",-1.6307851475120962
+"('transportadora', 'total', 'express')",-2.28193362983399
+"('falta', 'respeito', 'consumidor')",-2.8051271489683316
+"('agora', 'com', 'si')",-3.1438517132245067
+"('achar', 'falta', 'respeito')",-3.4562210832205906
+"('faltar', 'respeito', 'consumidor')",-3.569388702384149
+"('aqui', 'reclame', 'aqui')",-4.072193268101643
+"('consigo', 'acessar', 'conta')",-4.354391206919015
+"('com', 'si', 'contato')",-4.44167902785896
+"('faltar', 'respeito', 'cliente')",-4.679408506628906
+"('quero', 'dinheiro', 'voltar')",-5.204459521707577
+"('querer', 'dinheiro', 'volta')",-6.090758694229731
+"('cobrar', 'cartão', 'crédito')",-6.190709301051108
+"('tentar', 'acessar', 'conta')",-6.2193801612123245
+"('querer', 'dinheiro', 'voltar')",-6.296905089224428
+"('entrar', 'contato', 'comigo')",-6.443003755021369
+"('dinheiro', 'volta', 'querer')",-6.898113616287333
