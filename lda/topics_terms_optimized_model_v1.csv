@@ -1,0 +1,13 @@
+Tópicos,Words
+0,"['produto', 'compra', 'loja', 'dinheiro', 'dia', 'contato', 'site', 'empresa', 'prazo', 'reclamação']"
+1,"['produto', 'compra', 'empresa', 'problema', 'loja', 'pagamento', 'dia', 'dinheiro', 'contato', 'site']"
+2,"['compra', 'produto', 'loja', 'dia', 'contato', 'empresa', 'valor', 'problema', 'mensagem', 'número']"
+3,"['produto', 'compra', 'dia', 'problema', 'contato', 'valor', 'compr', 'empresa', 'loja', 'momento']"
+4,"['compra', 'produto', 'prazo', 'loja', 'contato', 'dia', 'empresa', 'valor', 'site', 'cancelamento']"
+5,"['produto', 'valor', 'compra', 'dia', 'problema', 'contato', 'atendimento', 'empresa', 'loja', 'mensagem']"
+6,"['produto', 'compra', 'empresa', 'atendimento', 'contato', 'loja', 'dia', 'cliente', 'compr', 'valor']"
+7,"['produto', 'compra', 'valor', 'site', 'dia', 'promoção', 'loja', 'contato', 'cancelamento', 'problema']"
+8,"['compra', 'produto', 'mensagem', 'contato', 'prazo', 'loja', 'problema', 'dinheiro', 'reclamação', 'valor']"
+9,"['compra', 'produto', 'loja', 'dia', 'cancelamento', 'valor', 'site', 'contato', 'empresa', 'problema']"
+10,"['produto', 'compra', 'loja', 'dia', 'valor', 'retorno', 'empresa', 'contato', 'site', 'data']"
+11,"['compra', 'produto', 'empresa', 'dia', 'contato', 'número', 'prazo', 'loja', 'site', 'valor']"
