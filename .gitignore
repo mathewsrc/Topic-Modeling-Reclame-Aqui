@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Ignore models objects as they are too large
-.bertopic/*/models/
+**/models/
 
 # Distribution / packaging
 .Python
