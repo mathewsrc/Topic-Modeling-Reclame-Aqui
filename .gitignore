@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Ignore models objects as they are too large
-documents_nouns/models
+.models/
 
 # Distribution / packaging
 .Python
