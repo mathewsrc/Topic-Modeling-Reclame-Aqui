@@ -1,0 +1,10 @@
+model,clustering,reduction,coherence_score
+model_trial_0,K-means,PCA,0.4386
+model_trial_2,K-means,PCA,0.3177
+model_trial_3,K-means,PCA,0.4479
+model_trial_4,K-means,PCA,0.5008
+model_trial_5,HDBSCAN,UMAP,0.6614
+model_trial_6,K-means,PCA,0.4934
+model_trial_7,HDBSCAN,UMAP,0.599
+model_trial_8,K-means,PCA,0.451
+model_trial_9,HDBSCAN,PCA,0.4157

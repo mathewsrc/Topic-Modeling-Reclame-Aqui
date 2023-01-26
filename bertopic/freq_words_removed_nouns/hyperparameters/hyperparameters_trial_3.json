@@ -1,0 +1,1 @@
+{"clustering_algorithm__name": "K-means", "reduction_algorithm__name": "PCA", "bertopic__top_n_words": 14, "bertopic__n_gram_range": "(2,2)", "bertopic__min_topic_size": 16, "bertopic__diversity": 0.3167337084925541, "bertopic__outliers_threshold": 0.04716127330249379, "bertopic__nr_topics": 14, "k_means__n_cluster": 15, "pca__n_components": 2}
