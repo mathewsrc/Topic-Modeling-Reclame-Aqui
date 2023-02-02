@@ -1,1 +1,1 @@
-{"clustering_algorithm__name": "K-means", "reduction_algorithm__name": "PCA", "bertopic__n_gram_range": "(1,1)", "k_means__n_cluster": 20, "k_means__max_iter": 200, "k_means__n_init": 10, "pca__n_components": 5}
+{"clustering_algorithm__name": "K-means", "reduction_algorithm__name": "UMAP", "bertopic__n_gram_range": "(1,1)", "k_means__n_cluster": 20, "k_means__max_iter": 200, "k_means__n_init": 10, "umap__n_neighbors": 11, "umap__n_components": 5, "umap__metric": "cosine", "umap__min_dist": 0.4422222042003602, "umap__spread": 0.8246237791822907}

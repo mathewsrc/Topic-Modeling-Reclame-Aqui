@@ -1,17 +1,20 @@
-model_trial_0,9,HDBSCAN,UMAP,0.6001
-model_trial_1,14,K-means,UMAP,0.4267
-model_trial_2,8,HDBSCAN,UMAP,0.4457
-model_trial_3,12,K-means,UMAP,0.8421
-model_trial_4,13,K-means,PCA,0.8702
-model_trial_6,19,K-means,PCA,0.3797
-model_trial_9,13,K-means,UMAP,0.7453
-model_trial_10,17,K-means,PCA,0.7893
-model_trial_11,12,K-means,PCA,0.8715
-model_trial_12,15,K-means,PCA,0.8627
-model_trial_13,12,K-means,PCA,0.8715
-model_trial_14,12,K-means,PCA,0.8715
-model_trial_15,17,K-means,PCA,0.8576
-model_trial_16,15,K-means,PCA,0.792
-model_trial_17,12,K-means,PCA,0.8715
-model_trial_18,20,K-means,PCA,0.8529
-model_trial_19,14,K-means,PCA,0.7795
+model_trial_0,21,"(1, 1)",HDBSCAN,UMAP,0.0
+model_trial_1,16,"(1, 1)",K-means,PCA,0.3785
+model_trial_2,8,"(1, 2)",HDBSCAN,PCA,0.6865
+model_trial_3,16,"(1, 2)",K-means,PCA,0.7621
+model_trial_4,18,"(1, 1)",K-means,PCA,0.3833
+model_trial_5,14,"(1, 3)",K-means,UMAP,0.8246
+model_trial_6,8,"(1, 3)",HDBSCAN,UMAP,0.6147
+model_trial_7,16,"(1, 2)",K-means,PCA,0.7621
+model_trial_8,20,"(1, 2)",K-means,UMAP,0.7237
+model_trial_9,14,"(1, 2)",K-means,UMAP,0.7401
+model_trial_10,11,"(1, 3)",HDBSCAN,UMAP,0.6081
+model_trial_11,12,"(1, 3)",K-means,PCA,0.8046
+model_trial_12,12,"(1, 3)",K-means,PCA,0.8046
+model_trial_13,12,"(1, 3)",K-means,UMAP,0.8279
+model_trial_14,14,"(1, 3)",K-means,UMAP,0.8069
+model_trial_15,14,"(1, 3)",K-means,UMAP,0.8069
+model_trial_16,13,"(1, 3)",K-means,UMAP,0.8022
+model_trial_17,13,"(1, 3)",K-means,UMAP,0.8259
+model_trial_18,14,"(1, 3)",HDBSCAN,UMAP,0.5259
+model_trial_19,12,"(1, 3)",K-means,UMAP,0.8281
