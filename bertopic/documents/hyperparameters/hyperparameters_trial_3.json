@@ -1,0 +1,1 @@
+{"clustering_algorithm__name": "K-means", "reduction_algorithm__name": "UMAP", "bertopic__n_gram_range": "(1,1)", "k_means__n_cluster": 10, "k_means__max_iter": 300, "k_means__n_init": 10, "umap__n_neighbors": 17, "umap__n_components": 10, "umap__metric": "euclidean", "umap__min_dist": 0.8352650902972866, "umap__spread": 0.7127790211882755}

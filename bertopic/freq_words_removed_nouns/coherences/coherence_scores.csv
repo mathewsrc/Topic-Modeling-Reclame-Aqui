@@ -8,3 +8,9 @@ model_trial_6,K-means,PCA,0.4934
 model_trial_7,HDBSCAN,UMAP,0.599
 model_trial_8,K-means,PCA,0.451
 model_trial_9,HDBSCAN,PCA,0.4157
+model_trial_1,K-means,PCA,0.4743
+model_trial_3,HDBSCAN,UMAP,0.473
+model_trial_0,HDBSCAN,UMAP,0.3542
+model_trial_2,HDBSCAN,UMAP,0.363
+model_trial_0,HDBSCAN,UMAP,0.5014
+model_trial_4,HDBSCAN,UMAP,0.4926
