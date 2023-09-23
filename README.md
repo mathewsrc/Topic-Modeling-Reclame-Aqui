@@ -12,6 +12,8 @@ Keywords: Transformers; Latent Dirichlet Allocation; Latent Semantic Indexing; B
 
 ### Overview
 
+![image](https://github.com/mathewsrc/Topic-Modeling-Reclame-Aqui/assets/94936606/6485dbc1-9699-4484-9e72-76a61b005add)
+
 ### Project structure
 
 ### Results
