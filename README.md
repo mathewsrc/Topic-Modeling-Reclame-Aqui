@@ -7,7 +7,8 @@
 ### Abstract
 
   The electronics sector faces a great challenge in dealing with a large volume of consumer complaints, which can have various origins, from issues such as delivery time to problems with service cancellations. These complaints can negatively impact a company's reputation and affect its ability to retain and attract new customers. Topic modeling becomes fundamental in this context because it can help companies better understand and categorize consumer complaints in an automated way. In this context, this project aimed to compare and evaluate the performance of three popular topic modeling algorithms: LDA, BERTopic, and LSI, in extracting topics from customer complaints on the Brazilian website "Reclame Aqui" and identifying relevant topics. The project used a dataset of approximately twelve thousand customer complaints related to products and services from the major e-commerce platforms in Brazil. The data was preprocessed and used in training and optimizing topic modeling models, and the performance was evaluated based on the average coherence value. The evaluation results showed that the LDA and BERTopic models were able to extract informative topics from the data. In terms of score, BERTopic had the best performance among the models using the average coherence value as a comparison metric. The findings of this project suggest that companies seeking to obtain valuable information related to customer complaints can benefit from the use of topic modeling algorithms, such as LDA and BERTopic, to better understand their customers' concerns and take data-driven actions to improve customer satisfaction.
-Keywords ou Palabras Clave: Transformers; Latent Dirichlet Allocation; Latent Semantic Indexing; BERTopic; Latent Semantic Indexing
+
+Keywords: Transformers; Latent Dirichlet Allocation; Latent Semantic Indexing; BERTopic; Latent Semantic Indexing
 
 ### Overview
 
