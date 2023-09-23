@@ -16,6 +16,8 @@ Keywords: Transformers; Latent Dirichlet Allocation; Latent Semantic Indexing; B
 
 ### Project structure
 
+TODO
+
 ### Results
 
 LDA - Intertopic Distance map 
