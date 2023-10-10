@@ -1,7 +1,5 @@
 # Topic Modeling Reclame Aqui
 
-## Course Completion Work presented to obtain the title of specialist in Data Science and Analytics – 2023
-
 ## **Title: Comparison of Topic Modeling Approaches on Complaints Related to the E-Commerce Industry**
 
 ### Abstract
