@@ -12,10 +12,6 @@ Keywords: Transformers; Latent Dirichlet Allocation; Latent Semantic Indexing; B
 
 ![image](https://github.com/mathewsrc/Topic-Modeling-Reclame-Aqui/assets/94936606/f8be9504-df7d-45a0-bb7f-858cec1188cf)
 
-### Project structure
-
-TODO
-
 ### Results
 
 LDA - Intertopic Distance map 
